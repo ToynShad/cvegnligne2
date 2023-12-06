@@ -1,10 +1,8 @@
-body {
-    box-sizing: content-box;
-    width: 1160px;
-    align-items: center;
+html {
+    display: flex;
     justify-content: center;
-}
 
+}
 header {
     text-align: center;
     background-color: #782221;
@@ -23,6 +21,7 @@ p,
 h3 {
     text-indent: 6%;
     font-family: 'Raleway', sans-serif;
+    
 }
 
 h2 {
@@ -31,6 +30,9 @@ h2 {
     text-indent: 6%;
     color: #000;
     background-color: #dbc2a4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 footer {
     display: flex;
@@ -68,4 +70,17 @@ footer a :hover {
     border-right: solid;
     background-color: white;
     grid-column:2;
+}
+footer img {
+        width: 50px;
+        height: 50px;
+}
+ul {
+    padding-left: 10%;
+}
+main {
+    display: grid;
+    grid-template-columns: 35%;
+    align-content: center;
+    width: 1160px;
 }
