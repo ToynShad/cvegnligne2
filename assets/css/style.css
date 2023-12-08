@@ -23,6 +23,13 @@ h4 {
     text-indent: 6%;
     font-family: 'Raleway', sans-serif;
 }
+#bloc-1 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    padding-left: 1em;
+}
 
 h3 {
     width: 90%;
@@ -33,32 +40,28 @@ h3 {
     margin-right: auto;
 }
 
-h5 {
-    text-align: center;
-    color: white;
-}
-
-nav  {
+nav {
     width: 1160px;
     height: 6em;
     background: #2c1d27;
-
 }
-address  {
+
+address {
     display: flex;
     justify-content: space-around;
-padding-top: 3%;
-vertical-align:middle;
-
-
+    padding-top: 3%;
+    vertical-align: middle;
 }
-a  {
+
+a {
     text-decoration: none;
     color: white;
 }
+
 a:hover {
     text-decoration: underline;
 }
+
 #bloc-1 {
     color: white;
     background-color: #782221;
@@ -95,12 +98,10 @@ main {
 }
 
 footer {
-    display: flex;
-    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
     text-align: center;
-    align-items: center;
     background-color: #782221;
-    height: 5em;
 }
 
 footer a :hover {
@@ -111,4 +112,8 @@ footer a :hover {
 footer img {
     width: 50px;
     height: 50px;
+}
+
+h5{
+    color: white;
 }
