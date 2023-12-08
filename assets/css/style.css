@@ -16,13 +16,18 @@ header img {
     cursor: -webkit-zoom-in;
     cursor: zoom-in;
 }
-
+address a {
+    text-decoration: none;
+    color: white;
+}
+address a:hover {
+    text-decoration: underline;
+}
 p,
 h3 {
     text-indent: 6%;
     font-family: 'Raleway', sans-serif;
-    
-}
+    }
 
 h2 {
     width: 90%;
@@ -30,10 +35,7 @@ h2 {
     text-indent: 6%;
     color: #000;
     background-color: #dbc2a4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+    }
 footer {
     display: flex;
     justify-content: center;
@@ -45,17 +47,13 @@ h5 {
     text-align: center;
     color: white;
 }
-h2 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 nav {
     height: 100px;
     background: #2c1d27;
     display: flex;
-    justify-content: space-around;
     line-height: 100px;
+    justify-content: center;
 }
 footer a :hover {
     text-decoration: underline;
@@ -84,3 +82,7 @@ main {
     align-content: center;
     width: 1160px;
 }
+.bloc:hover {
+    border-right: 5px solid #782221;
+}
+
