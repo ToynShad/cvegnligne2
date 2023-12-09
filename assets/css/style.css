@@ -20,23 +20,27 @@ header img {
 
 @font-face {
     font-family: "Raleway";
-src:url("../fonts/Raleway-VariableFont_wght.woff");
-src:url("../fonts/Raleway-VariableFont_wght.ttf") format("truetype");
-} 
+    src: url("../fonts/Raleway-VariableFont_wght.woff");
+    src: url("../fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+}
 
-h3  {
+h3 {
     font-family: "Raleway", serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Raleway&display=swap');
 
-p, li, h4 {
+p,
+li,
+h4 {
     font-family: 'lato', serif;
 }
+
 p,
 h4 {
     text-indent: 6%;
 }
+
 #bloc-1 p {
     display: flex;
     justify-content: center;
@@ -128,6 +132,6 @@ footer img {
     height: 50px;
 }
 
-h5{
+h5 {
     color: white;
 }
