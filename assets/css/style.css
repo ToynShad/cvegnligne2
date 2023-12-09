@@ -18,10 +18,24 @@ header img {
     cursor: zoom-in;
 }
 
+@font-face {
+    font-family: "Raleway";
+src:url("../fonts/Raleway-VariableFont_wght.woff");
+src:url("../fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+} 
+
+h3  {
+    font-family: "Raleway", serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;400&family=Raleway&display=swap');
+
+p, li, h4 {
+    font-family: 'lato', serif;
+}
 p,
 h4 {
     text-indent: 6%;
-    font-family: 'Raleway', sans-serif;
 }
 #bloc-1 p {
     display: flex;
